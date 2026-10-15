@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <a href="https://doi.org/10.52783/jisem.v10i10s.1360"><img src="https://img.shields.io/badge/📄_Published-JISEM_2025-8A6E52?style=for-the-badge" /></a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/PyG_Temporal-3C2179?style=for-the-badge" />
@@ -12,6 +16,36 @@
 </p>
 
 ---
+
+## 📄 Paper
+
+This repository accompanies our published paper:
+
+> **Exploring the Efficacy of Graph Neural Networks in Predicting Traffic Flow in India**
+> Paras Patil, Vishesh Mittal, Dhruvisha Mondhe, **Akshita Upadhyay**, Nupur Giri
+> *Journal of Information Systems Engineering and Management*, Vol. 10, No. 10s, 2025
+> [doi.org/10.52783/jisem.v10i10s.1360](https://doi.org/10.52783/jisem.v10i10s.1360) · [PDF](https://www.jisem-journal.com/index.php/journal/article/view/1360/516)
+
+**Key contributions**
+- **DIVA** — a new *Dataset for Indian Vehicular Traffic Analysis*, built because existing benchmarks (PeMS, METR-LA) don't reflect Indian road networks
+- GNNs trained on DIVA reach accuracy **comparable to the PeMSD7 / PeMSD8 benchmarks**
+- A **route-navigation method** that uses predicted future speeds at each node to find the path that maximises speed and minimises travel time
+
+<details>
+<summary>📚 BibTeX</summary>
+
+```bibtex
+@article{patil2025gnntraffic,
+  title   = {Exploring the Efficacy of Graph Neural Networks in Predicting Traffic Flow in India},
+  author  = {Patil, Paras and Mittal, Vishesh and Mondhe, Dhruvisha and Upadhyay, Akshita and Giri, Nupur},
+  journal = {Journal of Information Systems Engineering and Management},
+  volume  = {10},
+  number  = {10s},
+  year    = {2025},
+  doi     = {10.52783/jisem.v10i10s.1360}
+}
+```
+</details>
 
 ## 📌 Overview
 
@@ -31,7 +65,7 @@ Trained models for each horizon are saved in `a3tgcn{15,30,45}mins/` and `dcrnn{
 
 | Dataset | Description |
 |---|---|
-| `DIVE/` | 20-node road network in Mumbai — speeds, travel times, node coordinates, adjacency |
+| `DIVE/` | **DIVA** dataset (from the paper) — 20-node road network in Mumbai — speeds, travel times, node coordinates, adjacency |
 | `PeMSD7/` | Caltrans PeMS District 7 (Los Angeles) speeds + adjacency |
 | `PeMSD8/` | Caltrans PeMS District 8 (San Bernardino) speeds + adjacency |
 
@@ -62,4 +96,4 @@ jupyter notebook GNNs.ipynb
 
 ## 👥 Team
 
-Built as a team project with [@Vishesh-Mittal](https://github.com/Vishesh-Mittal). Licensed under MIT.
+Paras Patil, [Vishesh Mittal](https://github.com/Vishesh-Mittal), Dhruvisha Mondhe and Akshita Upadhyay, guided by Dr. Nupur Giri. Licensed under MIT.
