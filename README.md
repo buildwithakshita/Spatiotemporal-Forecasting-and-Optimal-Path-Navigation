@@ -96,4 +96,4 @@ jupyter notebook GNNs.ipynb
 
 ## 👥 Team
 
-Paras Patil, [Vishesh Mittal](https://github.com/Vishesh-Mittal), Dhruvisha Mondhe and Akshita Upadhyay, guided by Dr. Nupur Giri. Licensed under MIT.
+Paras Patil, [Vishesh Mittal](https://github.com/Vishesh-Mittal), Dhruvisha Mondhe, Akshita Upadhyay and Nupur Giri. Licensed under MIT.
