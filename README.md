@@ -15,7 +15,7 @@
 
 ## 📌 Overview
 
-Traffic on a road network is both **spatial** (congestion spreads to neighbouring roads) and **temporal** (it follows daily patterns). This project models the road network as a graph — sensors/junctions are nodes, roads are edges — and trains spatio-temporal GNNs to predict speeds **15, 30 and 45 minutes ahead**. The forecasts feed a routing service ([TrafficServer](https://github.com/akshita251/TrafficServer)) that computes the optimal path with Dijkstra's algorithm.
+Traffic on a road network is both **spatial** (congestion spreads to neighbouring roads) and **temporal** (it follows daily patterns). This project models the road network as a graph — sensors/junctions are nodes, roads are edges — and trains spatio-temporal GNNs to predict speeds **15, 30 and 45 minutes ahead**. The forecasts feed a routing service ([TrafficServer](https://github.com/buildwithakshita/TrafficServer)) that computes the optimal path with Dijkstra's algorithm.
 
 ## 🧠 Models compared
 
